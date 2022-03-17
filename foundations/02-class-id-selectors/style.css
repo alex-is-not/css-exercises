@@ -1,0 +1,22 @@
+/* comment .class #id */
+
+* {
+    font-family: sans-serif;
+}
+.odds {
+    background-color: #FF9999;
+    font-family: Verdana, 'Dejavu Sans', sans-serif;
+}
+#element2 {
+    font-size: 36px;
+    color: #000099;
+}
+#element3 {
+    font-size: 24px;
+}
+#element4 {
+    background-color: #33FF99;
+    font-weight: bold;
+    font-size: 24px;
+}
+
