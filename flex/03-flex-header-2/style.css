@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex; 
+  justify-content: space-between;
+  padding: 8px; /*space between every element and edge in the header*/
 }
 
 .profile-image {
@@ -45,4 +48,20 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+/*group the left side (LOGO, the 3 links) of the headers together as a class*/
+.leftside {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+/*group the right side (1 new notification, purple circle*/
+.rightside {
+  display: flex;  
+  gap: 16px;
+  align-items: center;
 }
