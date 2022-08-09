@@ -13,10 +13,16 @@ Flexbox is useful for laying out entire pages as well as the smaller components 
 ### Self Check
 
 - The header is at the top of the page, the footer is at the bottom, and they stay in place if you resize your screen.
+** display: flex in class header and footer 
 - The header and footer have padding.
 - The links in the header and footer are pushed to either side.
+** justify-content: space-between in class header and footer
 - There is space between the links in the header and footer.
+** ul gap??? 
 - The footer has a light gray background (`#eeeeee`).
+** class footer has background
 - The logo, input and buttons are centered in the screen.
+** class content is the div with the logo, input, and buttons 
+** so class content, display flex; and then i need to change the axis, so it is vertical flex-direction: column; align-items: center;
 - The buttons have an appropriate amount of padding.
 - There is space between the logo, input and buttons.

@@ -25,3 +25,54 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+/*links*/
+a {
+  text-decoration: none;
+}
+a:link {
+  color: rgb(30, 29, 29);
+}
+a:hover {
+  color: rgb(80, 54, 27);
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.content {
+  flex: 1; /* means flex: 1 1 0 (grow shrink basis)*/ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  padding: 16px;
+}
+
+button {
+  padding: 10px;
+} /*because each button is what we want to have padding, 
+NOT the div that contains the two buttons, div class buttons*/
