@@ -21,13 +21,23 @@ On a smaller screen it will look like this:
 ![smaller](./desired-outcome-smaller.png)
 
 ### Self Check
-- The header text is size 32px and weight 900.
+- The header text is size 32px and weight 900. 
+add to css class header font-size and font-weight
 - The header text is vertically centered and 16px from the edge of the screen.
+add to css class header padding-left, then display flex, to add align-items  
 - The footer is pushed to the bottom of the screen (the footer may go _below_ the bottom of the screen if the content of the 'cards' section overflows and/or if your screen is shorter).
+class footer, add margin-top: auto 
 - The footer text is centered horizontally and vertically.
+class footer - text-align and justify-content 
 - The sidebar and cards take up all available space above the footer.
+class content flex: 1 1 auto 
 - The sidebar is 300px wide (and it doesn't shrink).
+flex: 0 0 auto (not sure why)
 - The sidebar links are size 24px, are white, and do not have the underline text decoration.
+css attribute a and type li 
 - The sidebar has 16px padding.
+class sidebar, add padding: 16px
 - There is 32px padding around the 'cards' section.
+class cards, add padding 
 - The cards are arranged horizontally, but wrap to multiple lines when they run out of room on the page.
+class content, display: flex; flex-wrap: wrap; padding: 32px; gap: 8px; // do NOT put flex on class cards
